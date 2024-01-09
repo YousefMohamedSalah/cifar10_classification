@@ -5,11 +5,14 @@ The CIFAR-10 small photo classification problem is a standard dataset used in co
 Although the dataset is effectively solved, it can be used as the basis for learning and practicing how to develop, evaluate, and use convolutional deep learning neural networks for image classification from scratch.
 This includes how to develop a robust test harness for estimating the performance of the model, how to explore improvements to the model, and how to save the model and later load it to make predictions on new data.
 
+<img src="https://github.com/YousefMohamedSalah/cifar10_classification/assets/99505074/ea380263-4790-4a8b-929b-90a266c59056" align="right"/><br clear="left"/>
+
 ## Dataset
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 
-The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
-![image](https://github.com/YousefMohamedSalah/cifar10_classification/assets/99505074/ea380263-4790-4a8b-929b-90a266c59056)
+The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class. 
+
+<br/><br/><br/>
 
 ## Data Wrangling
 the images all have the same square size of 32×32 pixels, and that the images are color. Therefore, we can load the images and use them for modeling almost immediately.
