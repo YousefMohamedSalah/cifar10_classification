@@ -55,6 +55,6 @@ First, the diagnostics involve creating a line plot showing model performance on
 These plots are valuable for getting an idea of whether a model is overfitting, underfitting, or has a good fit for the dataset.
 We will create a single figure with two subplots, one for loss and one for accuracy. 
 The blue lines will indicate model performance on the training dataset and the orange lines will indicate performance on the hold-out test dataset. 
-the plot given the collected training histories. The plot is saved to file, specifically a file with the same name as the script with a ‘png‘ extension.
+the plot given the collected training histories. The plot is saved to a file, specifically a file with the same name as the script with a ‘png‘ extension.
 A figure is created and saved to a file showing the learning curves of the model during training on the train and test dataset, both concerning the loss and accuracy.
 
